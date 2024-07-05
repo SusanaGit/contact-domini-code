@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatIconModule} from "@angular/material/icon";
 
-const MATERIAL_MODULES = [];
+const MATERIAL_MODULES = [
+  MatToolbarModule,
+  MatIconModule
+];
 
 @Component({
   selector: 'app-toolbar',
   standalone: true,
-  imports: [],
+  imports: [MATERIAL_MODULES],
   template: `
     <p>
       toolbar works!
