@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: ''
+    path: '',
+    loadComponent: () => import('./list/list.component').then(m => m.ListComponent)
   }
 ];
