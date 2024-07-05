@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "paths:": {
+    "paths": {
       "@shared/*": ["src/app/shared/*"],
       "@features/*": ["src/app/features/*"],
       "@envs/*": ["src/environments/*"],

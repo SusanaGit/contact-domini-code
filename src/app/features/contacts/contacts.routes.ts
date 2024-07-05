@@ -1,4 +1,4 @@
-import { Routes, defaultUrlMatcher } from '@angular/router';
+import { Routes } from '@angular/router';
 
 export const contactsRoute: Routes = [
   {
