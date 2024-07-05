@@ -19,10 +19,16 @@ const MATERIAL_MODULES = [
         <mat-icon>home</mat-icon>
         <span>Home</span>
       </a>
+
+      <span class="spacer"></span>
+
       <a mat-button routerLink="/contacts">
         <mat-icon>list_alt</mat-icon>
         <span>Contacts</span>
       </a>
+
+      <span class="spacer"></span>
+
       <a mat-button >
         <mat-icon>add_box</mat-icon>
         <span>New</span>
