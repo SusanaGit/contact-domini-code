@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+const MATERIAL_MODULES = [];
+
 @Component({
   selector: 'app-toolbar',
   standalone: true,
